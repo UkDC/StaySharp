@@ -1,0 +1,14 @@
+{
+  "name": "StaySharp",
+  "version": "1.0",
+  "slug": "stay_sharp",
+  "description": "Django application running as Home Assistant addon",
+  "arch": ["armv7", "armhf", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "ports": {
+    "8000/tcp": 8000
+  },
+  "schema": {},
+  "options": {}
+}
+
